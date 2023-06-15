@@ -1,0 +1,104 @@
+/* Style Bank logo */
+.img__icon2 {
+    width: 5%;
+    margin: 15px;
+    transition: all .4s ease-in-out;
+}
+.img__icon2:hover{
+    transform: translateX(25px);
+}
+/* Style Banks */
+.container__bank{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px 0 25px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 100px auto;
+}
+.text {
+    padding: 15px 30px;
+    color: #ee141f;
+    font: 49px 'Times New Roman', Times, serif;
+    box-shadow: -5px 12px 13px -15px #545b62;
+}
+.text span{
+    font-size: 25px;
+}
+#buttons , #months{
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#months{
+    width: 70%;
+}
+.img__bank{
+    width: 50%;
+}
+.misr , .Abu_Dhabi , .Banque_du_caire , .National_Bank{
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: box-shadow .25s ease-in-out;
+}
+.misr:hover , .Abu_Dhabi:hover , .Banque_du_caire:hover , .National_Bank:hover{
+    box-shadow: 0px 3px 10px -5px #1d2124;
+} 
+.misr{
+    border: 1px solid #d39e00;
+}
+.National_Bank {
+    border: 1px solid #28a745;
+}
+.Banque_du_caire{
+    border: 1px solid #f36821;
+}
+.Abu_Dhabi{
+    border: 1px solid #ee141f;
+}
+.btn-info{
+    background-color: #f36821 !important;
+}
+.btn{
+    color: #000 !important;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: #fff !important;
+}
+/* uesing in js */
+#btnMonths1, #btnMonths2, #btnMonths3, #btnMonths4{
+    display: none;
+}
+/* Icons Social */
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 15px;
+}
+.icons i {
+    font-size: 25px;
+}
+.icon1{
+    transition: all .5s ease-in;
+}
+.icon1:hover{
+    transform:rotateY(180deg);
+    color: rgb(62, 110, 199);
+}
+.icon2{
+    color: rgb(62, 199, 62);
+    transition: all .5s ease-in;
+}
+.icon2:hover{
+    transform:rotateY(180deg);
+    color: rgb(62, 199, 62);
+}
+/* End Css */
